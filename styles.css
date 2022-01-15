@@ -1,0 +1,57 @@
+
+body{
+	background-image: url("contact-bg.png");
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+form 
+{
+	margin-left:5%;
+	margin-top:5%;
+    width: 33%;
+    font-family: cursive;
+    text-transform: capitalize;
+
+
+}
+form p{
+	padding: 10px;
+	margin: 20px;
+	
+}
+form p:hover
+{
+	color:red;
+	font-size: 20px;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,select
+{
+	padding: 5px;
+	margin: 5px;
+	border-radius: 3px;
+	border: 3px solid black;
+}
+
+
+input[type="submit"]
+{
+	background-color: lightgreen;
+    border: 3px solid black;
+	width: 100%;
+	height: 30px;
+	text-transform: uppercase;
+
+}
+input[type="submit"]:hover
+{
+	background-color: green;
+	cursor:pointer;
+}
